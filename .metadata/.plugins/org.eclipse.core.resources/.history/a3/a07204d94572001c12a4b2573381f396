@@ -1,0 +1,28 @@
+
+public class fibbonacci {
+//question 1:
+	public static void fibonacci() {
+		int a = 1;
+		int b = 1;
+		int c = -1;
+		double sum = 2;
+		System.out.print(a + " " + b + " ");
+		for (int i = 1; i <= 18; i++) {
+			c = a + b;
+			sum += c;
+			System.out.print(c + " ");
+			a = b;
+			b = c;
+		}
+		System.out.println();
+		System.out.println(sum / 20);
+	}
+//question 2:
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		fibonacci();
+	}
+
+}
