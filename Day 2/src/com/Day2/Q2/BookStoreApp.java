@@ -2,7 +2,7 @@ package com.Day2.Q2;
 
 import java.util.Scanner;
 
-import com.Day2.Q21.BookStore;
+import com.Day2.Q2.BookStore;
 
 public class BookStoreApp {
 	

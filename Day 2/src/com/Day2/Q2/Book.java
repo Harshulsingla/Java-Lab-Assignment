@@ -7,8 +7,7 @@ public class Book {
 	private String ISBN;
 	private int numOfCopies;
 
-	public Book() {
-	}
+	public Book() {}
 
 	public Book(String bookTitle, String author, String iSBN, int numOfCopies) {
 		this.bookTitle = bookTitle;
